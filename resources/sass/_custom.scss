@@ -1,0 +1,196 @@
+
+body{
+    font-family: 'Roboto Condensed';
+    background-color: transparent;
+}
+
+.black{
+    background-color: black;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 1.5rem !important;
+    font-family: 'Roboto Condensed';
+}
+.band{
+    font-size:35px ;
+    color: black;
+    font-weight: 400;
+
+}
+.num-1{
+    font-size:24px ;
+    font-weight:400 ;
+    color: black;
+    font-family: 'Roboto Condensed';
+}
+.num-2{
+    font-size: 15px;
+        font-weight: 400;
+        color: black;
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-size: 13px;
+}
+.form-control{
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0 !important;
+}
+
+.form-custom{
+  width: 70% !important;
+  float: right;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+
+.form-check-label{
+    font-size: 14px;
+    font-family: 'Roboto Condensed';
+    
+}
+.cert{
+    border: 1px solid #000000;
+}
+
+.input-invert{
+    background-color: #000000;
+    color: white;
+    border: none !important;
+    border-bottom: 2px solid white !important;
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.border-icon{
+    border: 2px solid #585c5f;
+    /* padding: 10px; */
+    font-size: 29px !important;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 58px !important;
+
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+    padding: 13% 15% 30% 15%;
+  }
+  
+  .form-btn{
+    float: right;
+      width: 70%;
+      background-color: #6D6D6D;
+      border: none;
+  }
+
+  .form-btn:hover{
+    background-color: #000000;
+  }
+  button:hover{
+    background-color: #000000 !important;
+  }
+
+
+
+/* login page */
+
+  /* Full-width inputs */
+
+  .login-form1{
+    padding: 10%;
+    border: none;
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    /* opacity: 0.8; */
+    background-color: #000000;
+  }
+  
+
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    /* text-align: center;
+    margin: 24px 0 12px 0; */
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+  /* Change styles for span and cancel button on extra small screens */
+
+  @media screen and ( max-width: 1000px) and (min-width:768px) {
+    .form-btn {
+      width: 100%;
+      margin-bottom: 20px;
+      float: none;
+      margin-bottom: -20px; 
+    }
+    
+  }
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .form-btn {
+      width: 100%;
+      margin-bottom: 20px;
+      float: none;
+      margin-bottom: -20px; 
+    }
+    
+  }
+
+
+  #item_table{
+    white-space: nowrap;
+  }
